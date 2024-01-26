@@ -1,0 +1,10 @@
+
+marks = input("Введите оценки: ")
+five=marks.count("5")
+four=marks.count("4")
+three=marks.count("3")
+two=marks.count("2")
+print(marks)
+SumM = (five + four + three + two)
+print(SumM)
+print((five+four+three)/SumM*100)
